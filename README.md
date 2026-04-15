@@ -113,8 +113,10 @@ El sistema usa dos métodos:
 
 ## 🌐 Idiomas soportados
 
-- Español
-- Inglés
+- 🇪🇸 Español
+- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglés
+
+<h5>Más idiomas próximamente…</h5>
 
 ---
 
