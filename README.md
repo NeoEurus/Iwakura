@@ -67,7 +67,7 @@ Iwakura/
 ```bash
 git clone https://github.com/NeoEurus/Iwakura.git
 cd Iwakura
-npm install
+npm install figlet colors express
 node server.js
 ```
 
