@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iwakura Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <div class="topbar">
+            <h1 id="title">Network Dashboard</h1>
+            <h4 id="links"><a href="https://github.com/NeoEurus/Iwakura">Repositorio</a> | <a href="https://github.com/EurusBuran">Instagram</a> | <a href="https://t.me/BlackDragonCrew">Grupo</a></h3>
+
+            <div class="controls">
+                <select id="lang">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                </select>
+                <button onclick="copyIP()" id="copyBtn">Copiar IP</button>
+            </div>
+        </div>
+
+        <div id="badges" class="badges"></div>
+        <div id="info" class="grid skeleton"></div>
+
+        <div id="map"></div>
+        <div id="status"></div>
+
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="app/script.js"></script>
+</body>
+</html>

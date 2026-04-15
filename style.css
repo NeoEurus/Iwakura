@@ -1,0 +1,100 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+    font-family:system-ui;
+    background:#020617;
+    color:#e2e8f0;
+}
+
+.container{
+    padding:15px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.card{
+    background:rgba(15,23,42,.8);
+    padding:20px;
+    border-radius:16px;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.controls{
+    display:flex;
+    gap:10px;
+}
+
+select,button{
+    padding:8px;
+    border-radius:8px;
+    border:none;
+}
+
+button{
+    background:#6366f1;
+    color:white;
+    cursor:pointer;
+}
+
+a, h4 {
+    text-decoration: none;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:10px;
+}
+
+.box{
+    background:#0f172a;
+    padding:10px;
+    border-radius:10px;
+    font-size:13px;
+}
+
+.badges{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+    flex-wrap:wrap;
+}
+
+.badge{
+    padding:5px 10px;
+    border-radius:999px;
+    font-size:12px;
+}
+
+.good{background:#065f46}
+.warn{background:#92400e}
+.bad{background:#7f1d1d}
+
+#map{
+    height:250px;
+    margin-top:15px;
+    border-radius:12px;
+}
+
+#status{
+    margin-top:10px;
+    font-size:12px;
+}
+
+.skeleton .box{
+    height:50px;
+    background:linear-gradient(90deg,#1e293b,#334155,#1e293b);
+    animation:load 1s infinite;
+}
+
+@keyframes load{
+    0%{background-position:200%}
+    100%{background-position:-200%}
+}
