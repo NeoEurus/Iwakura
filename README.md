@@ -50,6 +50,7 @@ Iwakura/
 ├── dashboard/
 │ ├── index.html
 │ ├── css/
+│ └── style.css
 │ └── app/
 │ └── script.js
 │
